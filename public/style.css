@@ -21,7 +21,7 @@ h1{
 }
 .row {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 .cell {
@@ -47,9 +47,8 @@ h1{
   background-color: #f0f0f0;
   cursor: not-allowed;
 }
+
 .btn {
-  align-items: center;
-  justify-content: center;
   margin-left: 700px;
   border: 2px solid #fff;
   border-radius: 10px;
@@ -64,7 +63,7 @@ h1{
   cursor: pointer;
 }
 .btn:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(200, 255, 60, 1);
   cursor: pointer;
 }
 .btn:disabled {
@@ -86,7 +85,7 @@ h1{
 #reset{
   text-align: center;
 }
-#reset{
+#reset .btn{
   border: 2px solid black;
   color: black;
   cursor: pointer;
