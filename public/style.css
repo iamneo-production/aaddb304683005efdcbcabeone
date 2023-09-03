@@ -24,7 +24,33 @@ h1{
   align-items: center;
   justify-content: center;
 }
+.cell {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.cell.disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
 .btn {
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
   border: 2px solid #fff;
   border-radius: 10px;
   width: 75px;
