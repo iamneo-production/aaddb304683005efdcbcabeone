@@ -50,7 +50,7 @@ h1{
 .btn {
   align-items: center;
   justify-content: center;
-  margin-left: 300px;
+  margin-left: 700px;
   border: 2px solid #fff;
   border-radius: 10px;
   width: 75px;
@@ -86,12 +86,12 @@ h1{
 .reset-section {
   text-align: center;
 }
-#reset-btn {
+#reset{
   border: 2px solid black;
   color: black;
   cursor: pointer;
 }
-#reset-btn:hover {
+#reset:hover {
   background-color: black;
   color: white;
   transition: background-color 0.3s, color 0.3s;
